@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  body {
+      font-family: 'Lato', sans-serif;
+  }
+
   .clearfix::after {
       content: "";
       display: table;
@@ -41,7 +45,7 @@
   nav ul li {
       padding: 6px 16px;
       font-weight: 600;
-      font-size: 18px;
+      font-size: 16px;
   }
 
   .fw-infobar {
@@ -55,16 +59,29 @@
 
   .info-text {
       float: left;
-      width: 958px;
+      width: 910px;
   }
 
   .info-text p {
       color: white;
-      font-size: 18px;
+      font-size: 16px;
+      padding-right: 40px;
   }
 
   .info-cta {
+
+  }
+
+  .info-cta a {
+      margin: 1px;
+      background-color: white;
+      padding: 12px 24px;
+      color: black;
+      border-radius: .1875rem;
       float: left;
+      font-size: 0.875rem;
+      font-weight: 600;
+
   }
 
 
