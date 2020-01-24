@@ -145,7 +145,7 @@
       border: 1px solid black;
   }
 
-  .fw-sectionhub {
+  .fw-sectionhub{
       background-color: #f5f8fa;
   }
 
@@ -175,6 +175,7 @@
   .s-top {
       background-color: white;
       padding: 32px 0;
+       margin-bottom: 25px;
   }
 
   .crm-cta {
@@ -239,6 +240,13 @@
      border-bottom: 1px solid #e0e6ed;
      top: 3px;
      width: 80%;
+ }
+
+ .card  {
+     width: 31%;
+     float:left;
+     background-color: white;
+     margin-right: 20px;
  }
 
 
