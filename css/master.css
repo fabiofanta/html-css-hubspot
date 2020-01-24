@@ -280,16 +280,45 @@
 
   .section.bizdata {
       text-align: center;
+      padding:80px 0;
+      color: white;
   }
 
 
   .sb-claim {
-      color: white;
+      width: 750px;
+      margin: 0 auto;
   }
 
   .sb-claim p{
+      padding-top: 20px;
+      padding-bottom: 40px;
 
   }
+
+  .cell {
+      width: 25%;
+      float: left;
+      padding: 20px 0;
+      border: 1px solid white;
+  }
+
+  .cell:nth-of-type(n+5) {
+      border-bottom: none;
+  }
+
+  .cell:nth-last-child(n+5) {
+      border-top: none;
+  }
+
+  .cell:nth-of-type(1n) {
+      border-left: none;
+  }
+
+  .cell:nth-of-type(4n) {
+      border-right: none;
+  }
+
 
   footer {
       background-color: #33475b;
