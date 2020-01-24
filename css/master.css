@@ -331,6 +331,69 @@
       padding: 10px 0;
   }
 
+  .sb2t-l {
+      width: 270px;
+      float: left;
+  }
+
+  .sb2t-l strong {
+      padding-bottom: 20px;
+  }
+
+  .sb2t-r {
+      width: 600px;
+      float: right;
+  }
+
+  .sb2t-r img {
+      width: 110px;
+  }
+
+  .section.bizdata2 {
+      padding: 50px 0;
+  }
+
+  .sb2-bottom {
+      padding: 120px 0;
+  }
+
+  .sb2b-l {
+      width: 486px;
+      float: left;
+  }
+
+  .sb2b-l p {
+      padding: 20px 0;
+  }
+
+  .sb2b-l small {
+      display: block;
+      padding-top: 24px;
+  }
+
+  .sb2b-r {
+      float: right;
+  }
+
+  .sb2br-img {
+      width: 350px;
+  }
+
+  .big {
+      font-size: 1rem;
+      padding: 1.625rem 3rem;
+      font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+
+
 
   footer {
       background-color: #33475b;
