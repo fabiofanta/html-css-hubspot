@@ -90,11 +90,12 @@
   }
 
   .section.jumbotron {
-      padding: 100px 0;
+      padding: 64px 0;
   }
 
   .sj-text {
-       width: 481px;
+      width: 481px;
+
   }
 
   .section.jumbotron h1 {
@@ -105,12 +106,64 @@
       font-family: "Roboto", sans-serif;
   }
 
+  .sj-text p {
+      margin: 20px 0;
+  }
 
+  .section.jumbotron a {
+      background-color: #ff7a59;
+      color: white;
+      font-size: 1rem;
+      padding: 1.625rem 3rem;
+      border-radius: .1875rem;
+      font-weight: 600;
+      display: inline-block;
+  }
 
+  .microcopy {
+      width: 224px;
+      font-size: 0.75rem;
+  }
 
   .fw-bottombar {
       background-color: #afebe4;
+      height: 70px;
+      border: 1px solid black;
   }
+
+  .fw-sectionhub {
+      background-color: #f5f8fa;
+  }
+
+  .box {
+      width: 1024px;
+      text-align: center;
+      padding: 100px 32px;
+  }
+
+  .sh-claim img {
+      max-width: 260px;
+  }
+
+  .shc-top {
+      width: 800px;
+      margin: 0 auto;
+  }
+
+  .shc-top h2 {
+      padding-bottom: 20px;
+  }
+
+  .crm-cta {
+      margin: 10px 0;
+      background-color: white;
+  }
+
+
+
+
+
+
 
   .fw-bizdata {
       background-color: #00b0b2;
