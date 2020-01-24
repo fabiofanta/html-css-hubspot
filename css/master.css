@@ -10,4 +10,36 @@
       clear: both;
   }
 
-  
+  .container,.section {
+      width:80%;
+      max-width: 1200px
+  }
+
+  .fw-fixedbar,.fw-sectionhub,.fw-bizdata2 {
+      background-color: #f5f8fa;
+  }
+
+  .fw-navbar {
+      background-color: #ffffff;
+  }
+
+  .fw-infobar {
+      background-color: #425b76;
+  }
+
+  .fw-jambotron {
+      background-color: #fff2ee;
+  }
+
+  .fw-bottombar {
+      background-color: #afebe4;
+  }
+
+  .fw-bizdata {
+      background-color: #00b0b2;
+  }
+
+  footer {
+      background-color: #33475b;
+
+  }
