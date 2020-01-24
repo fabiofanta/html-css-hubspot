@@ -11,20 +11,49 @@
   }
 
   .container,.section {
-      width:80%;
-      max-width: 1200px
+      width:1080px;
+      max-width: 1200px;
+      margin: 0 auto;
   }
 
   .fw-fixedbar,.fw-sectionhub,.fw-bizdata2 {
       background-color: #f5f8fa;
   }
 
-  .fw-navbar {
+   .fw-navbar {
+      padding:20px;
       background-color: #ffffff;
+  }
+
+  .container.navbar img {
+      float: left;
+  }
+
+  .container.navbar nav {
+      float: right;
+  }
+
+  li {
+      display: inline-block;
+      text-decoration: none;
+  }
+
+  nav ul li {
+      padding: 6px 16px;
+      font-weight: 600;
+      font-size: 18px;
   }
 
   .fw-infobar {
       background-color: #425b76;
+  }
+
+  .container.infobar {
+
+  }
+
+  a {
+      text-decoration: none;
   }
 
   .fw-jambotron {
