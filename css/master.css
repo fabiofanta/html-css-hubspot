@@ -49,8 +49,25 @@
   }
 
   .container.infobar {
+      padding:20px;
 
   }
+
+  .info-text {
+      float: left;
+      width: 958px;
+  }
+
+  .info-text p {
+      color: white;
+      font-size: 18px;
+  }
+
+  .info-cta {
+      float: left;
+  }
+
+
 
   a {
       text-decoration: none;
