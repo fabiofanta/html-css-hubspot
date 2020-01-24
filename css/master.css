@@ -301,6 +301,7 @@
       float: left;
       padding: 20px 0;
       border: 1px solid white;
+      position: relative;
   }
 
   .cell:nth-of-type(n+5) {
@@ -317,6 +318,17 @@
 
   .cell:nth-of-type(4n) {
       border-right: none;
+  }
+
+  .cell.plus h2:after {
+      content: "+";
+      font-size: 10px;
+      position: relative;
+      bottom: 5px;
+  }
+
+  .cell. h2 {
+      padding: 10px 0;
   }
 
 
