@@ -14,6 +14,14 @@
       clear: both;
   }
 
+  .capital-bold {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 13px;
+      margin-bottom: 15px;
+      margin-top: 2em;
+  }
+
   .container,.section {
       width:1080px;
       max-width: 1200px;
@@ -85,6 +93,10 @@
       text-decoration: none;
         display: inline-block;
         border-radius: .1875rem;
+  }
+
+  img {
+      max-width: 100%;
   }
 
   .fw-jumbotron {
@@ -172,6 +184,11 @@
 
   .crm-cta img {
       height: 150px;
+      width: 100%;
+  }
+
+  .crmc-button {
+      padding-top: 24px;
   }
 
   .medium {
@@ -193,6 +210,36 @@
   .pop-features {
       padding-top: 20px;
   }
+
+ .list ul li::before {
+     content: "";
+     background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg");
+     background-repeat: no-repeat;
+     width: 18px;
+     height: 18px;
+     display: inline-block;
+     margin-bottom: -3px;
+     margin-right: 10px;
+
+ }
+
+ .list ul li {
+     margin-right: 20px;
+ }
+
+ .pf-text p {
+     position: relative;
+ }
+
+ .pf-text p::after {
+     content: "";
+     position: absolute;
+     height: 5px;
+     margin-left: 10px;
+     border-bottom: 1px solid #e0e6ed;
+     top: 3px;
+     width: 80%;
+ }
 
 
 
