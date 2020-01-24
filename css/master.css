@@ -21,6 +21,10 @@
       margin-bottom: 15px;
       margin-top: 2em;
   }
+  .images {
+      height: 150px;
+      width: 100%;
+  }
 
   .container,.section {
       width:1080px;
@@ -183,11 +187,6 @@
       padding: 0 80px;
   }
 
-  .crm-cta img {
-      height: 150px;
-      width: 100%;
-  }
-
   .crmc-button {
       padding-top: 24px;
   }
@@ -243,23 +242,53 @@
  }
 
  .card  {
-     width: 31%;
+     width: 31.59%;
      float:left;
      background-color: white;
-     margin-right: 20px;
+
  }
 
+ .card,.s-top {
+     border-radius: 5px;
+ }
+ .card.biz1,.card.biz2 {
+     margin-right: 25px;
+ }
 
+ .card h4 {
+     padding: 15px;
+ }
 
+ hr {
+     width: 80%;
+     text-align: center;
+     margin: 20px auto;
+     color: #e0e6ed;
+ }
 
+ .card .list {
+     text-align: left;
+ }
 
-
-
-
-
+ .card a {
+     margin: 25px 0;
+ }
 
   .fw-bizdata {
-      background-color: #00b0b2;
+      background-color: #00b4ae;
+  }
+
+  .section.bizdata {
+      text-align: center;
+  }
+
+
+  .sb-claim {
+      color: white;
+  }
+
+  .sb-claim p{
+
   }
 
   footer {
