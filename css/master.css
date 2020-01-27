@@ -8,6 +8,9 @@
       font-family: 'Lato', sans-serif;
   }
 
+  header {
+  }
+
   .clearfix::after {
       content: "";
       display: table;
@@ -34,11 +37,40 @@
 
   .fw-fixedbar,.fw-sectionhub,.fw-bizdata2 {
       background-color: #f5f8fa;
+      border-bottom:1px solid lightgray;
+  }
+
+  .fw-fixedbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+
+  }
+
+  .fixedbar {
+      height: 80px;
+  }
+
+  .fixedbar ul {
+      float: right;
+  }
+
+  .login {
+      background-color: white;
+      color: #ff7a59;
+      border-radius: .1875rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border: 1px solid #ff7a59;
+      padding: 10px;
   }
 
   .fw-navbar {
       padding:20px;
       background-color: #ffffff;
+      position: relative;
   }
 
   .container.navbar img {
