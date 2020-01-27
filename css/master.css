@@ -54,6 +54,30 @@
       line-height: 5;
   }
 
+  .fixedbar span {
+      color: #334787;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 15px;
+      line-height: 1;
+      padding-right: 45px;
+  }
+
+  .wicon:before {
+      content: url("https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg");
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      vertical-align: text-top;
+      padding-left: 5px;
+      padding-right: 10px;
+  }
+
+  .slash {
+      border-left: 3px solid lightgray;
+      padding-left: 20px;
+  }
+
   .fixedbar ul {
       float: right;
   }
