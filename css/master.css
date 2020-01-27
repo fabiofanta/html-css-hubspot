@@ -377,41 +377,27 @@
 
   footer {
       background-color: #33475b;
+      color: lightgray;
+  }
+
+  .sft-list {
+      padding-top: 50px;
   }
 
   .sftl-card {
       float: left;
-      width: 25%
+      width: 25%;
+  }
+
+  .sftl-card label {
+      font-weight: 600;
+      color: white;
   }
 
   .sftl-card ul li {
       display: block;
-  }
-
-  .sfb-top {
-      text-align: center;
-  }
-
-  .sfb-top ul li.sfbb-r ul li {
-      display: inline-block;
-  }
-
-  .sfb-bottom {
-      border-top: 1px solid white;
-  }
-
-  .sfbb-l {
-      float: left;
-      width: 175px;
-  }
-
-  .sfbb-r {
-      float: right;
-      width: 245px;
-  }
-
-  .sftl-card ul li ul li {
-      display: inline-block;
+      line-height: 2;
+      font-size: 14px;
   }
 
   .sftl-card ul li .button {
@@ -419,5 +405,47 @@
       background-color: white;
       font-size: 0.75rem;
       font-weight: 500;
-      padding: 0.563rem 1rem;
+      padding: 5px 20px;
+      margin: 20px auto;
+      font-weight: bold;
+  }
+
+  .sftl-card ul li ul {
+      margin-bottom: 30px;
+  }
+
+  .sftl-card ul li ul li {
+      display: inline-block;
+      padding-right: 30px;
+  }
+
+  .sfb-top {
+      text-align: center;
+  }
+
+  .sfb-top ul li,.sfbb-r ul li {
+      display: inline-block;
+      padding-right: 20px;
+
+  }
+
+  .sfb-bottom {
+      border-top: 1px solid white;
+      margin-top: 30px;
+      padding-top: 30px;
+  }
+
+  .sfbb-l {
+      float: left;
+      width: 175px;
+  }
+
+  .sfbb-l small {
+      padding:5px 0 30px;
+      width: max-content;
+  }
+
+  .sfbb-r {
+      float: right;
+      width: 245px;
   }
