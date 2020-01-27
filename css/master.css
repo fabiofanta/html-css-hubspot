@@ -58,6 +58,11 @@
       float: right;
   }
 
+  .fas {
+      color: #00a4bd;
+      padding-right: 30px;
+  }
+
   .top {
       display: inline;
   }
@@ -67,9 +72,15 @@
       color: #ff7a59;
       border-radius: .1875rem;
       font-size: 0.875rem;
-      font-weight: 600;
       border: 1px solid #ff7a59;
-      padding: 10px;
+      padding: 10px 18px;
+  }
+
+  .fixedbar li .high {
+      font-size: 14px;
+      font-weight: 400;
+      padding: 0.563rem 1rem;
+
   }
 
   .fw-navbar {
