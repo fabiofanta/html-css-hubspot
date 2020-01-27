@@ -51,6 +51,7 @@
 
   .fixedbar {
       height: 80px;
+      line-height: 5;
   }
 
   .fixedbar ul {
