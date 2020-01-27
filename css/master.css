@@ -206,8 +206,9 @@
       padding-bottom: 10px;
   }
 
-  .pop-features {
+  .pop-features.capital-bold {
       padding-top: 20px;
+      border-top: 1px solid lightgray;
   }
 
  .list ul li::before {
@@ -243,7 +244,11 @@
      width: 31.59%;
      float:left;
      background-color: white;
+     padding: 20px;
+ }
 
+ .card p {
+     text-align: left;
  }
 
  .card,.s-top {
@@ -326,16 +331,35 @@
       float: left;
   }
 
-  .sb2t-l strong {
+  .sb2t-l strong:nth-last-child(2) {
       padding-bottom: 20px;
+      font-size: 2.5em;
   }
+
+  .sb2t-l p {
+      font-size: 14px;
+      color: #33475b;
+      width: 154px;
+      line-height: 1.5;
+  }
+
 
   .sb2t-r {
       width: 600px;
       float: right;
   }
 
-  .sb2t-r img {
+  .logo-bar {
+      height: 60px;
+      line-height: 2;
+  }
+
+  .sb2t-r .logo {
+      float: left;
+      padding: 20px;
+  }
+
+  .sb2t-r .logo img {
       width: 110px;
   }
 
@@ -350,6 +374,10 @@
   .sb2b-l {
       width: 486px;
       float: left;
+  }
+
+  .sb2b-l h2 {
+      padding-top: 50px;
   }
 
   .sb2b-l p {
